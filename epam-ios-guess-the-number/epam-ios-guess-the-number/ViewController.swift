@@ -13,6 +13,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var button: UIButton!
     @IBOutlet weak var inputField: UITextField!
+    @IBOutlet weak var ansLabel: UILabel!
     var imagineNumber = 0;
     
     override func viewDidLoad() {
@@ -26,7 +27,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         button.isEnabled = false
         inputField.delegate = self
         inputField.keyboardType = .numberPad
-        print(imagineNumber)
+        self.ansLabel.text = ""
+        //print(imagineNumber)
     }
     
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
@@ -45,6 +47,23 @@ class ViewController: UIViewController, UITextFieldDelegate {
         return true
     }
     
+    func setColor(_ int:Int) {
+        let imagineNumberInt = Int(imagineNumber)
+        switch (abs(imagineNumberInt-int)/10){
+        case 0:
+            self.ansLabel.textColor = UIColor.systemBlue
+        case 1:
+            self.ansLabel.textColor = UIColor.systemYellow
+        case 2:
+            self.ansLabel.textColor = UIColor.orange
+        case 3:
+            self.ansLabel.textColor = UIColor.systemOrange
+        case 4:
+            self.ansLabel.textColor = UIColor.red
+        default:
+            self.ansLabel.textColor = UIColor.systemRed
+        }
+    }
     
     @IBAction func Button(_ sender: Any) {
         guard let textFromField = inputField.text else {
@@ -52,13 +71,18 @@ class ViewController: UIViewController, UITextFieldDelegate {
             return
         }
         if (Int(textFromField)! < Int(imagineNumber)){
-            print(textFromField + " is less than imagine number")
+            self.ansLabel.text = (textFromField + " is less than imagine number")
+            setColor(Int(textFromField)!)
+            
         } else
             if (Int(textFromField)! > Int(imagineNumber)){
-                print(textFromField + " is more than imagine number")
+                self.ansLabel.text = (textFromField + " is more than imagine number")
+                setColor(Int(textFromField)!)
+
             } else{
-                print("You're right!")
-                
+                self.ansLabel.text = ("You're right!")
+                self.ansLabel.textColor = UIColor.green
+
         }
 
     }
