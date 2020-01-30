@@ -67,20 +67,20 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func Button(_ sender: Any) {
         guard let textFromField = inputField.text else {
-            print("Problem")
+            print(NSLocalizedString("Problem", comment: ""))
             return
         }
         if Int(textFromField) ?? Int(INT8_MAX) < Int(imagineNumber){
-            self.ansLabel.text = (textFromField + " is less than imagine number")
+            self.ansLabel.text = (textFromField + NSLocalizedString(" is less than imagine number", comment: ""))
             setColor(Int(textFromField) ?? Int(INT8_MAX))
             
         } else
             if Int(textFromField) ?? Int(INT8_MIN) > Int(imagineNumber){
-                self.ansLabel.text = (textFromField + " is more than imagine number")
+                self.ansLabel.text = (textFromField + NSLocalizedString(" is more than imagine number", comment: ""))
                 setColor(Int(textFromField) ?? Int(INT8_MIN))
 
             } else{
-                self.ansLabel.text = ("You're right!")
+                self.ansLabel.text = NSLocalizedString("You're right!", comment:"")
                 self.ansLabel.textColor = UIColor.green
 
         }

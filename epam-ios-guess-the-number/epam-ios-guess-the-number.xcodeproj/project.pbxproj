@@ -12,8 +12,8 @@
 		6D399A6523D989CB00A91376 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D399A6423D989CB00A91376 /* ViewController.swift */; };
 		6D399A6823D989CB00A91376 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D399A6623D989CB00A91376 /* Main.storyboard */; };
 		6D399A6A23D989CC00A91376 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D399A6923D989CC00A91376 /* Assets.xcassets */; };
-		6D399A6D23D989CC00A91376 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D399A6B23D989CC00A91376 /* LaunchScreen.storyboard */; };
 		6D399A7823D989CC00A91376 /* epam_ios_guess_the_numberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D399A7723D989CC00A91376 /* epam_ios_guess_the_numberTests.swift */; };
+		6D9D8A2123E31A9000176233 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D9D8A2323E31A9000176233 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,11 +33,13 @@
 		6D399A6423D989CB00A91376 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6D399A6723D989CB00A91376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D399A6923D989CC00A91376 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6D399A6C23D989CC00A91376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D399A6E23D989CC00A91376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D399A7323D989CC00A91376 /* epam-ios-guess-the-numberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "epam-ios-guess-the-numberTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D399A7723D989CC00A91376 /* epam_ios_guess_the_numberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = epam_ios_guess_the_numberTests.swift; sourceTree = "<group>"; };
 		6D399A7923D989CC00A91376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D9D8A1E23E3185300176233 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		6D9D8A2223E31A9000176233 /* ru */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6D9D8A2723E31F1600176233 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +86,8 @@
 				6D399A6423D989CB00A91376 /* ViewController.swift */,
 				6D399A6623D989CB00A91376 /* Main.storyboard */,
 				6D399A6923D989CC00A91376 /* Assets.xcassets */,
-				6D399A6B23D989CC00A91376 /* LaunchScreen.storyboard */,
 				6D399A6E23D989CC00A91376 /* Info.plist */,
+				6D9D8A2323E31A9000176233 /* Localizable.strings */,
 			);
 			path = "epam-ios-guess-the-number";
 			sourceTree = "<group>";
@@ -163,6 +165,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 6D399A5423D989CB00A91376;
 			productRefGroup = 6D399A5E23D989CB00A91376 /* Products */;
@@ -180,8 +183,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D399A6D23D989CC00A91376 /* LaunchScreen.storyboard in Resources */,
 				6D399A6A23D989CC00A91376 /* Assets.xcassets in Resources */,
+				6D9D8A2123E31A9000176233 /* Localizable.strings in Resources */,
 				6D399A6823D989CB00A91376 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,16 +232,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				6D399A6723D989CB00A91376 /* Base */,
+				6D9D8A1E23E3185300176233 /* ru */,
+				6D9D8A2723E31F1600176233 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		6D399A6B23D989CC00A91376 /* LaunchScreen.storyboard */ = {
+		6D9D8A2323E31A9000176233 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6D399A6C23D989CC00A91376 /* Base */,
+				6D9D8A2223E31A9000176233 /* ru */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -248,6 +253,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -308,6 +314,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

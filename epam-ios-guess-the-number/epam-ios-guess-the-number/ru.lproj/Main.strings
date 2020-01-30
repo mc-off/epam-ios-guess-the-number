@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Insert your number \nbellow"; ObjectID = "1Aw-Sa-ntf"; */
+"1Aw-Sa-ntf.text" = "Введите ваше число \nbellow";
+
+/* Class = "UILabel"; text = "ansLabel"; ObjectID = "1RX-TT-9ee"; */
+"1RX-TT-9ee.text" = "Поле ответа";
+
+/* Class = "UITextField"; placeholder = "Print num here"; ObjectID = "5B8-XD-FGo"; */
+"5B8-XD-FGo.placeholder" = "Введи число здесь";
+
+/* Class = "UIButton"; normalTitle = "Guess"; ObjectID = "lE0-ir-3pU"; */
+"lE0-ir-3pU.normalTitle" = "Попробовать";
