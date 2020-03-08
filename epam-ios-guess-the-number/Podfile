@@ -1,0 +1,13 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'epam-ios-guess-the-number' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for epam-ios-guess-the-number
+  target 'epam-ios-guess-the-numberTests' do
+	pod 'SwiftLint'
+  end
+
+end
