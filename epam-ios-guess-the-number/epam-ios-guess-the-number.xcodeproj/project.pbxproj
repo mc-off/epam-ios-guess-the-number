@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64409F8497A8B6D579C52C48 /* Pods_epam_ios_guess_the_number.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35841DCEC86E6F9AF2F85D7 /* Pods_epam_ios_guess_the_number.framework */; };
+		6D1798A6240411F0004DC8B0 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1798A5240411F0004DC8B0 /* Session.swift */; };
+		6D1F6FC723F16B2F0087A82A /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1F6FC623F16B2F0087A82A /* SettingViewController.swift */; };
 		6D399A6123D989CB00A91376 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D399A6023D989CB00A91376 /* AppDelegate.swift */; };
 		6D399A6323D989CB00A91376 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D399A6223D989CB00A91376 /* SceneDelegate.swift */; };
 		6D399A6523D989CB00A91376 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D399A6423D989CB00A91376 /* ViewController.swift */; };
 		6D399A6823D989CB00A91376 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D399A6623D989CB00A91376 /* Main.storyboard */; };
 		6D399A6A23D989CC00A91376 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D399A6923D989CC00A91376 /* Assets.xcassets */; };
-		6D399A7823D989CC00A91376 /* epam_ios_guess_the_numberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D399A7723D989CC00A91376 /* epam_ios_guess_the_numberTests.swift */; };
+		6D399A7823D989CC00A91376 /* epamIosGuessTheNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D399A7723D989CC00A91376 /* epamIosGuessTheNumberTests.swift */; };
 		6D9D8A2123E31A9000176233 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D9D8A2323E31A9000176233 /* Localizable.strings */; };
+		6DF299ED2414888000A180AE /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF299EC2414888000A180AE /* HistoryViewController.swift */; };
+		6DF299F02414897000A180AE /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF299EE2414897000A180AE /* HistoryTableViewCell.swift */; };
+		6DF299F12414897000A180AE /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DF299EF2414897000A180AE /* HistoryTableViewCell.xib */; };
+		E7B659FCDD2E4CF2C28362D2 /* Pods_epam_ios_guess_the_number_epam_ios_guess_the_numberTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 308D0BA0FFA6A198B3310D6C /* Pods_epam_ios_guess_the_number_epam_ios_guess_the_numberTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		251C98F1ADE6DFB1900A2133 /* Pods-epam-ios-guess-the-number.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-epam-ios-guess-the-number.release.xcconfig"; path = "Pods/Target Support Files/Pods-epam-ios-guess-the-number/Pods-epam-ios-guess-the-number.release.xcconfig"; sourceTree = "<group>"; };
+		308D0BA0FFA6A198B3310D6C /* Pods_epam_ios_guess_the_number_epam_ios_guess_the_numberTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_epam_ios_guess_the_number_epam_ios_guess_the_numberTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A63603EA2BCC479769FA1B /* Pods-epam-ios-guess-the-number-epam-ios-guess-the-numberTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-epam-ios-guess-the-number-epam-ios-guess-the-numberTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-epam-ios-guess-the-number-epam-ios-guess-the-numberTests/Pods-epam-ios-guess-the-number-epam-ios-guess-the-numberTests.release.xcconfig"; sourceTree = "<group>"; };
+		5CCB8E664618A8A8A4ABEE23 /* Pods-epam-ios-guess-the-number-epam-ios-guess-the-numberTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-epam-ios-guess-the-number-epam-ios-guess-the-numberTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-epam-ios-guess-the-number-epam-ios-guess-the-numberTests/Pods-epam-ios-guess-the-number-epam-ios-guess-the-numberTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D1798A5240411F0004DC8B0 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		6D1F6FC623F16B2F0087A82A /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		6D399A5D23D989CB00A91376 /* epam-ios-guess-the-number.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "epam-ios-guess-the-number.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D399A6023D989CB00A91376 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D399A6223D989CB00A91376 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,11 +48,16 @@
 		6D399A6923D989CC00A91376 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D399A6E23D989CC00A91376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D399A7323D989CC00A91376 /* epam-ios-guess-the-numberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "epam-ios-guess-the-numberTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D399A7723D989CC00A91376 /* epam_ios_guess_the_numberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = epam_ios_guess_the_numberTests.swift; sourceTree = "<group>"; };
+		6D399A7723D989CC00A91376 /* epamIosGuessTheNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = epamIosGuessTheNumberTests.swift; sourceTree = "<group>"; };
 		6D399A7923D989CC00A91376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D9D8A1E23E3185300176233 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		6D9D8A2223E31A9000176233 /* ru */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
-		6D9D8A2723E31F1600176233 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DABB36B23E8163700D41F58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		6DF299EC2414888000A180AE /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		6DF299EE2414897000A180AE /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		6DF299EF2414897000A180AE /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
+		889BE98FC26A2417923C04EB /* Pods-epam-ios-guess-the-number.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-epam-ios-guess-the-number.debug.xcconfig"; path = "Pods/Target Support Files/Pods-epam-ios-guess-the-number/Pods-epam-ios-guess-the-number.debug.xcconfig"; sourceTree = "<group>"; };
+		D35841DCEC86E6F9AF2F85D7 /* Pods_epam_ios_guess_the_number.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_epam_ios_guess_the_number.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64409F8497A8B6D579C52C48 /* Pods_epam_ios_guess_the_number.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +73,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7B659FCDD2E4CF2C28362D2 /* Pods_epam_ios_guess_the_number_epam_ios_guess_the_numberTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DDF5109FC3141590E6F4E46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				889BE98FC26A2417923C04EB /* Pods-epam-ios-guess-the-number.debug.xcconfig */,
+				251C98F1ADE6DFB1900A2133 /* Pods-epam-ios-guess-the-number.release.xcconfig */,
+				5CCB8E664618A8A8A4ABEE23 /* Pods-epam-ios-guess-the-number-epam-ios-guess-the-numberTests.debug.xcconfig */,
+				48A63603EA2BCC479769FA1B /* Pods-epam-ios-guess-the-number-epam-ios-guess-the-numberTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6D399A5423D989CB00A91376 = {
 			isa = PBXGroup;
 			children = (
 				6D399A5F23D989CB00A91376 /* epam-ios-guess-the-number */,
 				6D399A7623D989CC00A91376 /* epam-ios-guess-the-numberTests */,
 				6D399A5E23D989CB00A91376 /* Products */,
+				3DDF5109FC3141590E6F4E46 /* Pods */,
+				A3B4BC5B2998D6A7AB990DA8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +114,18 @@
 		6D399A5F23D989CB00A91376 /* epam-ios-guess-the-number */ = {
 			isa = PBXGroup;
 			children = (
+				6D1F6FC623F16B2F0087A82A /* SettingViewController.swift */,
 				6D399A6023D989CB00A91376 /* AppDelegate.swift */,
 				6D399A6223D989CB00A91376 /* SceneDelegate.swift */,
 				6D399A6423D989CB00A91376 /* ViewController.swift */,
+				6D1798A5240411F0004DC8B0 /* Session.swift */,
 				6D399A6623D989CB00A91376 /* Main.storyboard */,
 				6D399A6923D989CC00A91376 /* Assets.xcassets */,
 				6D399A6E23D989CC00A91376 /* Info.plist */,
 				6D9D8A2323E31A9000176233 /* Localizable.strings */,
+				6DF299EC2414888000A180AE /* HistoryViewController.swift */,
+				6DF299EE2414897000A180AE /* HistoryTableViewCell.swift */,
+				6DF299EF2414897000A180AE /* HistoryTableViewCell.xib */,
 			);
 			path = "epam-ios-guess-the-number";
 			sourceTree = "<group>";
@@ -95,10 +133,19 @@
 		6D399A7623D989CC00A91376 /* epam-ios-guess-the-numberTests */ = {
 			isa = PBXGroup;
 			children = (
-				6D399A7723D989CC00A91376 /* epam_ios_guess_the_numberTests.swift */,
+				6D399A7723D989CC00A91376 /* epamIosGuessTheNumberTests.swift */,
 				6D399A7923D989CC00A91376 /* Info.plist */,
 			);
 			path = "epam-ios-guess-the-numberTests";
+			sourceTree = "<group>";
+		};
+		A3B4BC5B2998D6A7AB990DA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35841DCEC86E6F9AF2F85D7 /* Pods_epam_ios_guess_the_number.framework */,
+				308D0BA0FFA6A198B3310D6C /* Pods_epam_ios_guess_the_number_epam_ios_guess_the_numberTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D399A7C23D989CC00A91376 /* Build configuration list for PBXNativeTarget "epam-ios-guess-the-number" */;
 			buildPhases = (
+				C5042BCA697A611DE11D36AA /* [CP] Check Pods Manifest.lock */,
 				6D399A5923D989CB00A91376 /* Sources */,
 				6D399A5A23D989CB00A91376 /* Frameworks */,
 				6D399A5B23D989CB00A91376 /* Resources */,
+				6DB6335A2412719700BFE132 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -125,6 +174,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D399A7F23D989CC00A91376 /* Build configuration list for PBXNativeTarget "epam-ios-guess-the-numberTests" */;
 			buildPhases = (
+				BCE9E6F2B28D03D7E31E26E3 /* [CP] Check Pods Manifest.lock */,
 				6D399A6F23D989CC00A91376 /* Sources */,
 				6D399A7023D989CC00A91376 /* Frameworks */,
 				6D399A7123D989CC00A91376 /* Resources */,
@@ -185,6 +235,7 @@
 			files = (
 				6D399A6A23D989CC00A91376 /* Assets.xcassets in Resources */,
 				6D9D8A2123E31A9000176233 /* Localizable.strings in Resources */,
+				6DF299F12414897000A180AE /* HistoryTableViewCell.xib in Resources */,
 				6D399A6823D989CB00A91376 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,14 +249,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6DB6335A2412719700BFE132 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		BCE9E6F2B28D03D7E31E26E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-epam-ios-guess-the-number-epam-ios-guess-the-numberTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5042BCA697A611DE11D36AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-epam-ios-guess-the-number-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6D399A5923D989CB00A91376 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D1798A6240411F0004DC8B0 /* Session.swift in Sources */,
 				6D399A6523D989CB00A91376 /* ViewController.swift in Sources */,
+				6DF299F02414897000A180AE /* HistoryTableViewCell.swift in Sources */,
 				6D399A6123D989CB00A91376 /* AppDelegate.swift in Sources */,
+				6DF299ED2414888000A180AE /* HistoryViewController.swift in Sources */,
 				6D399A6323D989CB00A91376 /* SceneDelegate.swift in Sources */,
+				6D1F6FC723F16B2F0087A82A /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D399A7823D989CC00A91376 /* epam_ios_guess_the_numberTests.swift in Sources */,
+				6D399A7823D989CC00A91376 /* epamIosGuessTheNumberTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,7 +344,7 @@
 			children = (
 				6D399A6723D989CB00A91376 /* Base */,
 				6D9D8A1E23E3185300176233 /* ru */,
-				6D9D8A2723E31F1600176233 /* en */,
+				6DABB36B23E8163700D41F58 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -367,9 +478,11 @@
 		};
 		6D399A7D23D989CC00A91376 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 889BE98FC26A2417923C04EB /* Pods-epam-ios-guess-the-number.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L46T769V8D;
 				INFOPLIST_FILE = "epam-ios-guess-the-number/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -384,9 +497,11 @@
 		};
 		6D399A7E23D989CC00A91376 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 251C98F1ADE6DFB1900A2133 /* Pods-epam-ios-guess-the-number.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L46T769V8D;
 				INFOPLIST_FILE = "epam-ios-guess-the-number/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -401,6 +516,7 @@
 		};
 		6D399A8023D989CC00A91376 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CCB8E664618A8A8A4ABEE23 /* Pods-epam-ios-guess-the-number-epam-ios-guess-the-numberTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -422,6 +538,7 @@
 		};
 		6D399A8123D989CC00A91376 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48A63603EA2BCC479769FA1B /* Pods-epam-ios-guess-the-number-epam-ios-guess-the-numberTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

@@ -9,7 +9,7 @@
 import XCTest
 @testable import epam_ios_guess_the_number
 
-class epam_ios_guess_the_numberTests: XCTestCase {
+class EpamIosGuessTheNumberTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
