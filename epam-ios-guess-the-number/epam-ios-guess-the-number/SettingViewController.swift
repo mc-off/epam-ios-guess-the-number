@@ -59,7 +59,7 @@ class SettingViewController: UIViewController {
         super.viewWillAppear(true)
         let titleView = UILabel(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
         titleView.contentMode = .scaleAspectFit
-        titleView.text = "HUY"
+        titleView.text = "Settings"
         navBar.titleView = titleView
         lowBorderField.keyboardType = .numberPad
         highBorderField.keyboardType = .numberPad
